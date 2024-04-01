@@ -5,24 +5,24 @@
 
 @layer components {
   .header-link {
-    @apply cursor-pointer font-bold text-gray-400 hover:text-gray-800 transition duration-300 ease-out;
+    @apply cursor-pointer font-bold text-gray-400 transition duration-300 ease-out hover:text-gray-800;
   }
   .footer-link {
-    @apply cursor-pointer mb-1 md:mb-2 text-gray-300 hover:text-cyan transition duration-300 ease-out
+    @apply mb-1 cursor-pointer text-gray-300 transition duration-300 ease-out hover:text-cyan md:mb-2;
   }
 }
 
-
 body {
   margin: 0;
-  font-family: Poppins, BlinkMacSystemFont,'Segoe UI','Roboto','Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+  font-family: Poppins, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-div[id^='tippy-'] {
+div[id^="tippy-"] {
   top: 230px !important;
-  left: 50% !important; 
+  left: 50% !important;
   transform: translate3d(-50%, -50%, 0px) !important;
 }

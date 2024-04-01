@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Shorten() {
-  return (
-    <div>
-
-    </div>
-  )
+  return <div></div>;
 }
 
-export default Shorten
+export default Shorten;
